@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-one p {
+    margin-top: 10px;
+}
+
+.section-three {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-three__table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-three__input {
+    padding: 5px;
+    margin: 10px 0;
+    width: 200px;
+
+}
+.section-three__input:focus {
+    outline: none;
+    border: 4px solid greenyellow;
+}
+
+.section-three__submit {
+    padding: 10px 20px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.section-three__table td {
+    padding: 5px;
+    text-align: center;
+    display: inline;
+}
+
+.section-three__submit:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex; /* puts items side by side */
+    flex-wrap: nowrap;/* keeps them in one line */
+    justify-content: center;
+    gap: 5px;/* space between images */
+    padding: 30px;/* space between images */
+    border: solid 2px black; /* adds a border around the container */
+    border-radius: 10px; /* rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* adds a shadow effect */
+    background-color:rgb(149, 234, 134); /* adds a gradient background */
+}
+
+
+.food-one {
+    text-align: center; /* centers text under image */
+    margin-bottom: 20px;
+    border: 0;
+    border: solid 2px black; /* adds a border around the image */
+    border-radius: 10px;  /* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* adds a shadow effect */
+    padding: 20px;
+    background-color: rgb(66, 137, 151);
+}
+.food-one:hover,.food-two:hover,.food-three:hover,.food-four:hover {
+    background-color: lightyellow; /* changes background color on hover */
+    transform: scale(1.12); /* slightly enlarges the image on hover */
+    transition: transform 0.3s ease; /* smooth transition for the hover effect */
+
+}
+.food-one img:hover,.food-two img:hover,.food-three img:hover,.food-four img:hover {
+    background-color: lightyellow; /* changes background color on hover */
+    transform: scale(1.06); /* slightly enlarges the image on hover */
+    transition: transform 0.3s ease; /* smooth transition for the hover effect */
+
+}
+
+.food-one img {
+    width: 150px;       /* same width */
+    height: 200px;      /* same height for all */
+    object-fit: cover;  /* crops without distortion */
+    border: 0;
+    border: solid 5px black;/* adds a border around the image */
+    border-radius: 10px;/* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* adds a shadow effect */
+
+}
+
+.food-one p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.food-two {
+    text-align: center;/* centers text under image */
+    margin-bottom: 20px;
+    border: 0;
+    border: solid 2px black;/* adds a border around the image */
+    border-radius: 10px;/* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* adds a shadow effect */
+    padding: 20px;
+    background-color: rgb(66, 137, 151);
+
+}
+
+.food-two img {
+    width: 150px;       /* same width */
+    height: 200px;      /* same height for all */
+    object-fit: cover;  /* crops without distortion */
+    border: 0;
+    border: solid 5px black;/* adds a border around the image */
+    border-radius: 10px;  /* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* adds a shadow effect */
+
+}
+
+.food-two p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.food-three {
+    text-align: center; /* centers text under image */
+    margin-bottom: 20px;
+    border: 0;
+    border: solid 2px black;/* adds a border around the image */
+    border-radius: 10px;/* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* adds a shadow effect */
+    padding: 20px;
+   background-color: rgb(66, 137, 151);
+}
+
+.food-three img {
+    width: 150px;       /* same width */
+    height: 200px;      /* same height for all */
+    object-fit: cover;  /* crops without distortion */
+    border-radius: 10px;
+    border: 0;
+    border: solid 5px black;/* adds a border around the image */
+    /* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* adds a shadow effect */
+}
+
+.food-three p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.food-four {
+    text-align: center;/* centers text under image */
+    margin-bottom: 20px;
+    border: 0;
+    border: solid 2px black; /* adds a border around the image */
+    border-radius: 10px;/* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* adds a shadow effect */
+    padding: 20px;
+    background-color: rgb(66, 137, 151); /* background color for the food item */
+}
+
+.food-four img {
+    width: 150px;       /* same width */
+    height: 200px;      /* same height for all */
+    object-fit: cover;  /* crops without distortion */
+    border: 0;
+    border: solid 5px black;/* adds a border around the image */
+    border-radius: 10px;/* rounds the corners of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);/* adds a shadow effect */
+}
+
+.food-four p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.container>div {
+    text-align: center;
+}
+.container button{
+    padding: 10px 20px;
+    background-color: rgb(26, 27, 24);
+    color: rgb(248, 244, 244);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  /*  width: 100px; /* sets a fixed width for the button */
+    border-radius: 4px; /* rounds the corners of the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* adds a subtle shadow effect */
+    transition: background-color 0.3s ease, color 0.3s ease; /* smooth transition for hover effect */
+    font-size: 16px; /* sets a larger font size for better readability */
+    display:inline ; /* allows the button to be centered */
+    text-align: center; /* centers the text inside the button */
+}
+.container button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+button:focus{
+    outline: none; /* removes the default focus outline */
+    box-shadow: 0 0 5px rgba(54, 75, 23, 0.5); /* adds a custom focus effect */
+    border: 2px solid rgb(54, 75, 23); /* adds a border on focus */
+}
+body{
+    font-family: Arial, sans-serif; /* sets a clean font for the body */
+    background-color: #eedada; /* light background color for the body */
+    color: #333; /* dark text color for readability */
+    line-height: 1.3; /* improves readability with line height */
+}
