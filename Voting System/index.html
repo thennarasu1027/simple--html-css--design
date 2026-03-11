@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voting System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Voting System</h1>
+
+<div class="user-input">
+<input type="text" id="name" placeholder="Enter your name">
+<input type="number" id="age" placeholder="Enter your age">
+<button onclick="checkEligibility()">Start Voting</button>
+</div>
+
+<p id="message"></p>
+
+<div class="vote-options" id="voteSection" style="display:none;">
+<button class="vote-button" onclick="castVote('Option 1')">TVK</button>
+<button class="vote-button" onclick="castVote('Option 2')">DMK</button>
+<button class="vote-button" onclick="castVote('Option 3')">ADMK</button>
+</div>
+
+<button onclick="adminLogin()">Admin Login</button>
+
+<div id="adminResult" style="display:none;">
+    <h2>Results</h2>
+    <p id="option1Votes">Option 1 : 0 votes</p>
+    <p id="option2Votes">Option 2 : 0 votes</p>
+    <p id="option3Votes">Option 3 : 0 votes</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
